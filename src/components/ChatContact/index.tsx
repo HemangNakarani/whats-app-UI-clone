@@ -90,19 +90,16 @@ export default function Index({
         }}
       >
         <div className={style["img-box"]}>
-          <img
-            alt="Me"
-            src="https://avatars.githubusercontent.com/u/45796208?v=4"
-          />
+          <img alt="Me" src="https://source.unsplash.com/random" />
         </div>
         <div className={style["item-content"]}>
           <div className={style["row"]}>
-            <h1 className={style["add-ellipsis"]}>G-211 (Vaccinated)</h1>
+            <h1 className={style["add-ellipsis"]}>United Coders</h1>
             <h3 className={style["add-ellipsis"]}>5:41 PM</h3>
           </div>
           <div className={style["row"]}>
             <h2 className={style["add-ellipsis"]}>
-              Registration on first come first serve(d) basis.
+              We do code, we make it possible ! Mujhe bhi quote aata hai ;)
             </h2>
             {isMute ? <Mute /> : null}
             {isPinned ? <Pin /> : null}

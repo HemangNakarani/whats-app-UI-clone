@@ -14,6 +14,9 @@
   --contact-item-hover-color: #2d3134;
   --app-primary-light: #00af9c;
   --chat-type-bar-bg-color: #1e2428;
+  --incoming-msg-bg: #262d31;
+  --outgoing-msg-bg: #056162;
+  --time-stamp-color: rgba(241, 241, 242, 0.63);
 }
 
 body {

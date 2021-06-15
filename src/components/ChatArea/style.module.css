@@ -1,12 +1,9 @@
 .chat-area {
   background-color: black;
   flex-grow: 1;
+  overflow: scroll;
   background-image: url("../../assets/chat_area_bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-}
-
-.chat-area-bg {
-  object-fit: cover;
 }
