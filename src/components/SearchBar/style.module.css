@@ -1,0 +1,32 @@
+.border-bottom {
+  border-bottom: 1px solid var(--border-color);
+}
+
+.search-bar {
+  display: flex;
+  margin: 0.4em 0.8em;
+  padding: 0.4em 0.7em;
+  border-radius: 2em;
+  align-items: center;
+  background-color: var(--search-input-bg-color);
+}
+
+.icon {
+  color: var(--icon-color);
+}
+
+input {
+  width: 100%;
+  padding-left: 1.8em;
+  font-size: 0.9em;
+  font-weight: 500;
+  margin: 0;
+  background-color: inherit;
+  white-space: nowrap;
+  border: none;
+  color: var(--text-primary-color);
+}
+
+input:focus {
+  outline: none;
+}

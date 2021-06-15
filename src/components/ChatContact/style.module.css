@@ -1,0 +1,88 @@
+.chat-contact-menu-item {
+  display: flex;
+  flex-direction: row;
+  padding: 0 1em;
+}
+
+.chat-contact-menu-item:hover {
+  background-color: var(--contact-item-hover-color);
+}
+
+.img-box {
+  margin: 0.6em 0;
+  align-self: center;
+}
+
+img {
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+}
+
+.item-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.5em;
+  min-width: 0;
+  margin-left: 0.8em;
+  border-top: 1px solid var(--border-color);
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 1em;
+  font-weight: 500;
+  margin: 0;
+  color: var(--text-primary-color);
+}
+
+h2 {
+  font-size: 0.8em;
+  font-weight: 500;
+  margin: 0;
+  color: var(--text-secondary-color);
+}
+
+h3 {
+  font-size: 0.75em;
+  font-weight: 500;
+  margin: 0;
+  color: var(--text-secondary-color);
+}
+
+.add-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+span {
+  margin-left: 0.3em;
+  color: var(--icon-color-dull);
+}
+
+.number-of-messages {
+  margin-left: 0.3em;
+  width: fit-content;
+  height: 1em;
+  background-color: var(--app-primary-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 0 0.35em;
+}
+
+.number-of-messages h3 {
+  font-size: 0.7em;
+  font-weight: 500;
+  margin: 0;
+  color: var(--panel-bg-color);
+}

@@ -1,0 +1,36 @@
+.bar-area {
+  background-color: var(--chat-type-bar-bg-color);
+  padding: 0.6em 1em;
+  display: flex;
+  align-items: center;
+}
+
+.text-bar-icons {
+  margin: 0.5em;
+  color: var(--icon-color);
+}
+
+.text-type-box {
+  margin: 0 1em;
+  padding: 0.7em 1em;
+  border-radius: 2em;
+  background-color: var(--search-input-bg-color);
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-bar {
+  font-size: 1em;
+  padding: 0;
+  font-weight: 500;
+  background-color: inherit;
+  white-space: nowrap;
+  border: none;
+  color: var(--text-primary-color);
+}
+
+.input-bar:focus {
+  outline: none;
+}

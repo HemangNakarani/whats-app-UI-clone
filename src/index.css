@@ -1,13 +1,33 @@
+:root {
+  --app-background-color: #090e11;
+  --text-primary-color: white;
+  --text-secondary-color: grey;
+  --navbar-background-color: #2a2f32;
+  --navbar-icon-color: #b1b3b5;
+  --icon-color: #828689;
+  --icon-color-dull: rgba(87, 93, 95, 1);
+  --hover-icon-bg-color: rgba(83, 83, 83, 0.5);
+  --search-input-bg-color: #323739;
+  --panel-bg-color: #131c21;
+  --border-color: #242d32;
+  --border-color-strong: rgba(241, 241, 242, 0.2);
+  --contact-item-hover-color: #2d3134;
+  --app-primary-light: #00af9c;
+  --chat-type-bar-bg-color: #1e2428;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--app-background-color);
+  font-size: 16px;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
